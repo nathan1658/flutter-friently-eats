@@ -38,6 +38,7 @@ class RestaurantCard extends StatelessWidget {
         height: 250,
         child: Column(
           children: <Widget>[
+            Text(restaurant.photo),
             // TODO: Make this a Hero widget so we can transition to it?
             Expanded(
               child: Container(
